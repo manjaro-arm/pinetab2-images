@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [pinetab2]
-        EDITION: [phosh,plasma-mobile,plasma-mobile-dev]
+        EDITION: [phosh]
         BRANCH: [unstable]
     steps:
       -
